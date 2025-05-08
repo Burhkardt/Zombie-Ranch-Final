@@ -35,14 +35,14 @@ function App() {
             </div>
           </div>
           <div className="game">
-            <p style={{fontSize:'x-large'}}>
+            <p style={{fontSize:'x-large'}} id="download">
               Games in development
             </p>
             <div className="ZombieRanch">
               <div className="zombieimg">
                 <img src={gameplay3}/>
               </div>
-              <div className="zombietext" id="download">
+              <div className="zombietext" >
                 <p style={{fontSize:'larger'}}>Zombie Ranch</p>
                 <p style={{fontSize:'small'}}>Relax while growing your farm — but don’t get bored! Hordes of zombies are coming for you! With each mission, your farm gets stronger. Show those brain-dead creeps who's boss in this zombie-like farming game! <a href="https://not-a-fox.itch.io/zombie-ranch" style={{textDecoration:'none', color:'#E94F02'}}>CLICK HERE</a> to see more</p>
               </div>
